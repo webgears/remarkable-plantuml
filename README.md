@@ -21,6 +21,30 @@ Register this plugin and link your plantuml files as in image in your markdown f
 The path to file has to be correct for the node process that builds the files. It will read the content of the file and create
 a plantuml server link for it.
 
+For example if you have the following file
+
+```
+@startuml
+Bob -> Alice : hello
+@enduml
+```
+
+and link it as
+
+```md
+![Diagram 1](/path/to/diagram.puml)
+```
+
+it will be replaced with
+
+```md
+![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+```
+
+and shown as
+
+![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+
 ### Register Plugin with Docusaurus
 
 ```
@@ -40,4 +64,3 @@ a plantuml server link for it.
 * `url` - The plantuml server link. Default: `http://www.plantuml.com/plantuml/`
 * `format` - Diagram format. Default: `png`
 * `base_path` - Base path for all files. Default: ``
-```
