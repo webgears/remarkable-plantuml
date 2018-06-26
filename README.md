@@ -46,7 +46,7 @@ it will be replaced with
 
 and shown as
 
-![](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
 
 ### Use with inline scripts
 
@@ -59,12 +59,12 @@ When you add snippets like the one below it will automatically be replaced with 
     ```
 
 ```md
-![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+![](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
 ```
 
 and shown as
 
-![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+![](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
 
 ### Register Plugin with Docusaurus
 
