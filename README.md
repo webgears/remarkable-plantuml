@@ -64,8 +64,6 @@ When you add snippets like the one below it will automatically be replaced with 
 
 and shown as
 
-and shown as
-
 ![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
 
 ### Register Plugin with Docusaurus
