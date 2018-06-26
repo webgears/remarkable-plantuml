@@ -46,7 +46,7 @@ it will be replaced with
 
 and shown as
 
-![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+![](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
 
 ### Use with inline scripts
 
