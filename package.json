@@ -1,6 +1,6 @@
 {
   "name": "remarkable-plantuml",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "PlantUML Plugin for Remarkable.js",
   "main": "index.js",
   "repository": "https://github.com/webgears/remarkable-plantuml",

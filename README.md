@@ -10,7 +10,10 @@ the browser.
 ```
 yarn add remarkable-plantuml
 ```
+
 ## Usage
+
+### Use with files
 
 Register this plugin and link your plantuml files as in image in your markdown files
 
@@ -45,6 +48,26 @@ and shown as
 
 ![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
 
+### Use with inline scripts
+
+When you add snippets like the one below it will automatically be replaced with an embedded image.
+
+    ```uml
+    @startuml
+    Bob -> Alice : hello
+    @enduml
+    ```
+
+```md
+![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+```
+
+and shown as
+
+and shown as
+
+![Diagram 1](http://www.plantuml.com/plantuml/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+
 ### Register Plugin with Docusaurus
 
 ```
@@ -63,4 +86,5 @@ and shown as
 
 * `url` - The plantuml server link. Default: `http://www.plantuml.com/plantuml/`
 * `format` - Diagram format. Default: `png`
-* `base_path` - Base path for all files. Default: ``
+* `base_path` - Base path for all files. Default: empty string
+* `inline_type` - Defines what code blocks will be converted to diagrams. Default: `uml`
